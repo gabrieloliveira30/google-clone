@@ -1,0 +1,247 @@
+body {
+      display: flex;
+      flex-direction: column; /* itens em coluna (um abaixo do outro) */
+      justify-content: center; /* centraliza na vertical */
+      align-items: center;     /* centraliza na horizontal */
+      height: 70vh;           /* altura total da tela */
+      
+      font-family: 'Roboto', sans-serif;
+      background-color: #202124;
+      color: white;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* remove rolagem horizontal */
+      overflow-y: hidden; /* remove rolagem vertical */
+    }
+    h1 {
+      position: relative;
+      top: 22px;
+      font-size: 88px;
+      font-weight: 500;
+      font-style: normal;
+      color: #ffffff;
+      margin-bottom: 35px; /* espaço entre título e barra */
+      letter-spacing: -1px;
+      word-break: break-word;
+  overflow-wrap: break-word;
+    }
+
+    .barra-pesquisa {
+      position: relative;
+      background-color: #4D5156;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      max-width: 685px;
+      padding: 14px;
+      box-sizing: border-box;
+      box-shadow: #5F6368;
+      border: 1px solid #5F6368;
+      border-radius: 30px;
+      margin-bottom: 20px; /* espaço entre barra e botões */
+      color: #4D5156;
+      top: 15px;
+
+    }
+
+    .barra-pesquisa input {
+      position: relative;
+      background-color: #4D5156;
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 14px;
+      cursor: pointer;
+      color: white;
+      
+    }
+
+    .botoes {
+      position: relative;
+      display: flex;
+      gap: 10px; /* espaçamento entre os botões */
+      top: 22px;
+    }
+
+    .botoes button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background-color: #303134;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .botoes button:hover {
+      border: 1px solid #ccc;
+    }
+
+    .busca {
+      margin-left: auto; /* empurra o ícone para a esquerda do espaço disponível */
+      margin-right: 0;   /* garante que não tenha margem direita */
+      width: 19px;       /* tamanho do ícone */
+      height: 19px;
+    }
+
+    .teclado {
+      position: absolute;
+      right: 20%;
+      width: 23px;
+      height: 23px;
+    }
+
+    .microfone {
+     position: absolute;
+     right: 15%;
+    }
+
+    .modo-ia {
+    position: absolute;
+    left: 92%;
+
+    }
+    .camera {
+     position: absolute;
+     right: 10%;
+    }
+    
+    .g-topo img {
+     position: absolute;
+     top: 2px;
+     right: -1px;
+     width: 69px;
+    }
+
+    .quadradinhos img {
+      position: absolute;
+      top: 7px;
+      right: 59px;
+      
+    }
+
+    .div {
+      position: relative;
+    }
+     
+    .h2-gmail {
+     left: 89%;
+     position: absolute;
+     font-size: 13px;
+     top: 10px;
+    }
+
+    .h2-imagens {
+     position: absolute;
+     font-size: 13px;
+     left: 1757px;
+     top: 10px;
+    }
+
+ /* Footer geral */
+/* Footer geral */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #171717;
+  color: white;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 10px 3px;
+}
+
+/* Parte superior: Brasil */
+.footer-top {
+  display: flex;
+  align-items: center;
+  height: 17px;
+}
+
+/* Linha horizontal fina */
+.linha-corte {
+  width: 100%;
+  height: 1px;
+  background-color: #3c4043;
+  margin: 20px 0px;
+}
+
+/* Parte inferior: links */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Grupo links esquerda */
+.footer-left {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 32px;
+  top: -5px;
+  
+}
+
+/* Grupo links direita */
+.footer-right {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  margin-top: -10px;
+}
+
+/* Parágrafos */
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.brasil {
+  position: relative;
+  top: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 27px;
+}
+.footer-left p:first-child {
+  margin-left: 0px;
+}
+
+.footer-left p:nth-child(2) {
+  margin-left: 10px;
+
+}
+.footer-left p:nth-child(3) {
+  margin-left: 10px;
+
+}
+
+.footer-left p:nth-child(4) {
+  margin-left: 10px;
+}
+
+.footer-right p:first-child {
+  position: relative;
+  left: -22px;
+}
+
+.footer-right p:nth-child(2) {
+  position: relative;
+  left: -12px;
+}
+
+.footer-right p:nth-child(3) {
+  position: relative;
+  left: -2px;
+}
+
+
+
+
+
