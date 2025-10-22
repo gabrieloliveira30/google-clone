@@ -23,7 +23,7 @@ body {
       margin-bottom: 35px; /* espaço entre título e barra */
       letter-spacing: -1px;
       word-break: break-word;
-  overflow-wrap: break-word;
+      overflow-wrap: break-word;
     }
 
     .barra-pesquisa {
